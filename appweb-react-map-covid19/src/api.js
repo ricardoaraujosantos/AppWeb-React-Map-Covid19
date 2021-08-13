@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 const path = 'https://coronavirus-19-api.heroKuapp.com/countries'
 
 const headers = {
