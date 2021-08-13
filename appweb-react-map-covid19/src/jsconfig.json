@@ -7,12 +7,22 @@
             "components:/*":[
                 "./components/*"
             ],
+            "containers:/*":[
+                "./containers/*"
+            ],
             "assets:/*":[
                 "./assets/*"
+            ],
+            "resources:/*":[
+                "./resources/*"
             ],
             "commons:/*":[
                 "./commons/*"
             ]
         }
-    }
+    },
+    "exclude": [
+        "node modules",
+        "build"
+    ]
 }

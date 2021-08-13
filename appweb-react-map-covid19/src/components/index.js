@@ -1,10 +1,10 @@
-import { Card, CardContent } from "./card";
-import Button from "./button";
+import { Card, CardContent } from "./Card";
+import Button from "./Button";
 import Grid from "./Grid";
 import Select from "./Select";
 import Skeleton from "./Skeleton";
 import MenuItem from "./MenuItem";
-import Tipography from "./Tipography";
+import Typography from "./Typography";
 
 export{
     Card,
@@ -14,5 +14,5 @@ export{
     Select,
     Skeleton,
     MenuItem,
-    Tipography
+    Typography
 }

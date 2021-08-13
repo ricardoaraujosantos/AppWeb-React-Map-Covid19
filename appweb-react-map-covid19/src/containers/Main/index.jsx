@@ -1,7 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React, { memo, useState, useCallback, useEffect } from "react";
 import Api from '../../api'
+import Board from './component/Board'
 import { ContainerStyled } from './style'
+
 
 function Main(){
     const [data, setData] = useState({})
@@ -10,7 +12,7 @@ function Main(){
 
     const getCovidData = useCallback((country) => {
         Api.getCountry(country)
-        .then(data => setData())
+        .then(data => setData(data))
     }, [])
 
     useEffect(() => {
@@ -22,6 +24,7 @@ function Main(){
              <div className="mb-2">
                 Teste
             </div>
+            <Board data={data} />
         </ContainerStyled>
        
     )
