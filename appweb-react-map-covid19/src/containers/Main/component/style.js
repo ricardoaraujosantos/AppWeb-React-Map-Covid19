@@ -10,7 +10,7 @@ export const ValueStyled = styled(Typography)`
     font-size: 2.5rem;
 `
 export const CardContentStyled = styled(CardContent)`
-    border-left: 8px solid ${({color}) => color || 'red'};
+    border-left: 8px solid ${({ color }) => color || 'green'};
 `
 export const CardPainelContentStyled = styled(CardContent)`
     display: flex;

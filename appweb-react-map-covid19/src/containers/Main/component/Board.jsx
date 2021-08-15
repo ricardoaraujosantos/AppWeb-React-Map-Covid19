@@ -11,10 +11,22 @@ function Board ({ data }) {
     return(
         <Grid container spacing={4}>
             <Grid item xs={12} md={3}>
-                <Card value={ getValue(cases) } label="Total de casos" color="red" />
+                <Card value={ getValue(cases) } label="Total de casos" color="#FB685F" />
+            </Grid>
+            <Grid item xs={12} md={3}>
+                <Card value={ getValue(todayCases) } label="Casos de hoje" color="#F6FD0A" />
+            </Grid>
+            <Grid item xs={12} md={3}>
+                <Card value={ getValue(todayDeaths) } label="Óbitos de hoje" color="#85929E" />
+            </Grid>
+            <Grid item xs={12} md={3}>
+                <Card value={ getValue(deaths) } label="Total de óbitos" color="#85929E" />
+            </Grid>
+            <Grid item xs={12} md={3}>
+                <Card value={ getValue(recovered) } label="Total de recuperados" color="#27DA07" />
             </Grid>
         </Grid>
     )
 }
 
-export default Board
+export default memo(Board)
