@@ -1,3 +1,11 @@
+# PWA Para Mapear Dados Da Covid-19 Pelo Mundo
+
+## Projeto De Estudo Desenvolvido Com ReactJs, Consumindo Uma API Countries. Aula De Componentes ReactJs Do Bruno Carneiro | Digital Innovation One
+
+![Interface PWA Covid-19](https://github.com/ricardoaraujosantos/appweb-react-map-covid19/blob/main/src/assets/images/captura-1.png)
+![Interface PWA Codid-19](https://github.com/ricardoaraujosantos/appweb-react-map-covid19/blob/main/src/assets/images/captura-2.png)
+![Interface PWA Covid-19](https://github.com/ricardoaraujosantos/appweb-react-map-covid19/blob/main/src/assets/images/captura-3.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
